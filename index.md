@@ -34,7 +34,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+For my second milestone, I connected the relay module which allowed the arduino to use its leds to create a sad, nuetral, and happy face depending on how moist the moister senor is. I made the relay work by connecting it to the breadboard pins that are next to my moister sensor and arduino digital pin. sad means not enough water in the soil, nuetral means there is a moderate amount of water in the soil, and happy face means there is good amount of water in soil. One thing I found suprising about the project so far is how a breadboard works, by connecting the pins in a horizontal line. Previous challenges that I overcame was learning how to wire the relay module, and connecting it to the moister sensor and arduino. A couple things I need to do before my final milestone are connecting the motor, setting up the blynk app, and have a full working Iot plant watering system.
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
@@ -47,7 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For my first milestone, I finished my starter project on the first day. For my next milestone I hope to finish my next project, which will be the Iot plant watering system. I will build it by using and arduino to create an image that tell syou if a plant needs water or not. The arduino will also be used to control a motor to pump water inot a plant.
+For my first milestone, I got the moister soil sensor working. By dipping the moister sensor in water, I can see on the serial moniter how the sensor reacts ouside of the water compared to inside the water. I learned how to get the moister sensor working by connecting it to a breadboard and analog pin. This allowed my moister sensor to become connected to an analog, gnd, and power which makes the whole thing work. Some of the challenges ive faced to finish my first milestone were learning how to wire, use the pins on the arduino, and even some coding. My future challenges for this project are to learn how to code more, and be able to know how to wire proficantly. For my next milestone, I plan to finish connecting my relay to my arduino and moister sensor so it can display a sad, nuetral, and happy face depending on how wet the moister senor is.
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
