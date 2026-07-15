@@ -20,7 +20,7 @@ You should comment out all portions of your portfolio that you have not complete
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+For my final milestone, I installed the blynk app, allowing me to control the motor with a button. I also added automation, which wasn't apart of the orginal project but it felt necessary and more convenient. With the additon of automation, the motor can now automatically turn on or turn off depending on how wet the moisture sensor is. The biggest challenge of this project was having to experiance with most of the parts in this project including the relay, moisture sensor, and teh blynk app. Over the course of building this project I learned alot about arduinos and how to connect them to breadboards, motors, and many more parts need in this project. I also learned about analog and digital pins, and how to code with them. I hope in the future after everthing ive learned at BSE, I can use the knowledge I gained to particpate in more projects that incude mechanical engineering and hopefully even pursue a career in mechanical engineering.
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -59,9 +59,161 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+/*************************************************************
+  Blynk is a platform with iOS and Android apps to control
+  ESP32, Arduino, Raspberry Pi and the likes over the Internet.
+  You can easily build mobile and web interfaces for any
+  projects by simply dragging and dropping widgets.
 
+    Downloads, docs, tutorials: https://www.blynk.io
+    Sketch generator:           https://examples.blynk.cc
+    Blynk community:            https://community.blynk.cc
+    Follow us:                  https://www.fb.com/blynkapp
+                                https://twitter.com/blynk_app
+
+  Blynk library is licensed under MIT license
+  This example code is in public domain.
+
+ *************************************************************
+  This example shows how to use Arduino WiFi shield
+  to connect your project to Blynk.
+
+  Please update your shield firmware:
+    https://www.arduino.cc/en/Hacking/WiFiShieldFirmwareUpgrading
+
+  Feel free to apply it to any other example. It's simple!
+ *************************************************************/
+
+/* Comment this out to disable prints and save space */
+//#define BLYNK_PRINT Serial
+
+/* Fill in information from Blynk Device Info here */
+#define BLYNK_TEMPLATE_ID "TMPL2nQ-97Nif"
+#define BLYNK_TEMPLATE_NAME "REMOTE WATERING SYSTEM"
+#define BLYNK_AUTH_TOKEN "DBQbDFdSGm09dGzDfsCql6pf2RLqQbbu"
+
+#include <SPI.h>
+#include <WiFiS3.h>
+#include <BlynkSimpleWifi.h>
+#include "Arduino_LED_Matrix.h"
+#include <EEPROM.h>
+
+#define moisture_sensor A1
+#define relay 7
+#define motorPin 8
+BlynkTimer timer;
+ArduinoLEDMatrix matrix;  //Create an led matrix object
+
+// Your WiFi credentials.
+// Set password to "" for open networks.
+char ssid[] = "J11";
+char pass[] = "Blue@J11";
+
+int eeprom_addr = 0;  //eeprom address
+int sensorValue = 0;  // variable to store the value coming from the sensor
+int prev_pump_status = 0;
+int pump_status = 0;
+float moist_percent = 0.00;
+
+const uint32_t HAPPY_LED[] = {
+    0x3fc48a95,
+    0x58019fd9,
+    0x5889871
+};
+
+const uint32_t NORMAL_LED[] = {
+    0x3fc40298,
+    0xd98d8019,
+    0x5889871
+};
+
+const uint32_t SAD_LED[] = {
+    0x3fc48a9d,
+    0xd8898018,
+    0x71889905
+};
+
+
+BLYNK_WRITE(V1) {     //read data from Blynk cloud
+  pump_status = param.asInt();
+  EEPROM.write(eeprom_addr,pump_status);
+  prev_pump_status = EEPROM.read(eeprom_addr);
+  Serial.println(prev_pump_status);
+  Serial.println(pump_status);
 }
-```
+
+void sendSensor() {   //send data to Blynk cloud
+  Blynk.virtualWrite(V0,moist_percent);
+}
+
+void init_renesas_MCU_IO() {
+  pinMode(relay, OUTPUT);
+  pinMode(moisture_sensor, INPUT);
+  analogReadResolution(12); //change to 12-bit resolution
+  matrix.begin(); //initialise the led matrix*/
+}
+
+void track_soil_moisture() {
+   //read the value from the sensor:
+   sensorValue = analogRead(moisture_sensor);
+   moist_percent = 100 - ((float)sensorValue / 4096.0) * 100;
+   //moist_percent*=10;
+   Serial.println(moist_percent);
+   
+  if(moist_percent >= 0 && moist_percent < 45){
+    Serial.println("DRY");
+    matrix.loadFrame(SAD_LED);
+    Serial.println(moist_percent);
+    digitalWrite(relay, HIGH);
+  }
+  else if(moist_percent >= 45 && moist_percent <70){
+    Serial.println("MODERATE");
+    matrix.loadFrame(NORMAL_LED);
+    Serial.println(moist_percent);
+  }
+  else if(moist_percent >= 70){
+    Serial.println("WET");
+    matrix.loadFrame(HAPPY_LED);
+    Serial.println(moist_percent);
+    digitalWrite(relay, LOW);
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  // Debug console
+  Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
+
+  init_renesas_MCU_IO();
+ 
+  timer.setInterval(1000L,sendSensor);
+  pinMode(motorPin, OUTPUT);
+
+  prev_pump_status = EEPROM.read(eeprom_addr);
+  pump_status = prev_pump_status;
+}
+
+void loop() {
+  Blynk.run();
+  timer.run();
+  digitalWrite(motorPin, HIGH);
+  track_soil_moisture();
+  if(pump_status == 0){
+    Serial.println("Water pump is off");
+    digitalWrite(relay, LOW);
+  }
+  else if(pump_status == 1){
+    Serial.println("Water pump is on");
+    digitalWrite(relay, HIGH);
+    
+  }
+  Serial.println("clockwise");
+  delay(2000);
+  digitalWrite(motorPin, HIGH);
+}
+
+ 
+
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
