@@ -221,9 +221,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino Uno R4 Wifi | Used to automate devices and use code | $27.50 | <[a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-](https://www.amazon.com/Arduino-UNO-WiFi-ABX00087-Bluetooth/dp/B0C8V88Z9D/ref=sr_1_3?crid=26TAKYROGWLH8&dib=eyJ2IjoiMSJ9.hgTVTNipNCjb6SRiDR3Picrx_Z8KEkfOHx4nsM_zlVhFFqjUlNq3p9FBo_zaOP_R5jfvfm3HdEZqLFYoS6JIZK3HELYf5gmdzPpxCbW80mwyEBLXStP__wBMgmgZ9KMiPtSyq5OcZm4CDi2Wd-iDf8tlvuMHk6x-y0D2sQ6dj0aWjBRn5AGDO_8eyxbEBQ7DhR7OhtiXvfIYMq1rNufmj_SNzw5SRYep15DLRpDsBUk._Kgd2w0uLwM7paSheRkUT9vcIXVRSAlRkUsh_OILmiQ&dib_tag=se&keywords=ARDUINO+R4+UNO&qid=1784155190&sprefix=arduino+r4+uno%2Caps%2C178&sr=8-3)R3/dp/B008GRTSV6/"> Link </a> |
+| Water Motor | Used to pump and transfer water | $9 | <amazon.com/ALAMSCN-Submersible-Aquariums-Fountain-Hydroponics/dp/B08PBQ1N1G/ref=sr_1_5?crid=2JWOQU9ZTCO66&dib=eyJ2IjoiMSJ9.PmsVVF38wHQKauTJygc25JyPu7crquC4YOZlIMymjJPTMnIuGBcVTIldOe8Yqu6_IxwuKyPK9PJ2wl5FfiXSEG-WITib7oOHwgcEOkWyz96z-P521Odh4qBJdFunlMt2yJ3qSBoKtveqhV10jCrankhwfkZe-QqnL9j-_ro4xqm_LRoiAv6RopaIJgJH73K7STwZx7ed9hc9hHL-eS3XpQmsjA_qGuQrjXnTngsg1dNjkREqZ7E9z3gOa5JXMixtSXpEQFDLbBe7GUEK3gNak20Lla0cwukXiXQ9ykhSSJw.VokMlnaZpl5zu8g8rcrNjNV1kmZ79L-6oBjH52hUty0&dib_tag=se&keywords=dc+water+pump+arduino&qid=1784156502&sprefix=dc+water+pump+arduino%2Caps%2C253&sr=8-5"> Link </a> |
+| Moister Sensor @2.0| What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
