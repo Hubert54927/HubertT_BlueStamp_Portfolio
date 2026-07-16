@@ -222,8 +222,21 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Arduino Uno R4 Wifi | Used to automate devices and use code | $27.50 | <[a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-](https://www.amazon.com/Arduino-UNO-WiFi-ABX00087-Bluetooth/dp/B0C8V88Z9D/ref=sr_1_3?crid=26TAKYROGWLH8&dib=eyJ2IjoiMSJ9.hgTVTNipNCjb6SRiDR3Picrx_Z8KEkfOHx4nsM_zlVhFFqjUlNq3p9FBo_zaOP_R5jfvfm3HdEZqLFYoS6JIZK3HELYf5gmdzPpxCbW80mwyEBLXStP__wBMgmgZ9KMiPtSyq5OcZm4CDi2Wd-iDf8tlvuMHk6x-y0D2sQ6dj0aWjBRn5AGDO_8eyxbEBQ7DhR7OhtiXvfIYMq1rNufmj_SNzw5SRYep15DLRpDsBUk._Kgd2w0uLwM7paSheRkUT9vcIXVRSAlRkUsh_OILmiQ&dib_tag=se&keywords=ARDUINO+R4+UNO&qid=1784155190&sprefix=arduino+r4+uno%2Caps%2C178&sr=8-3)R3/dp/B008GRTSV6/"> Link </a> |
+
 | Water Motor | Used to pump and transfer water | $9 | <amazon.com/ALAMSCN-Submersible-Aquariums-Fountain-Hydroponics/dp/B08PBQ1N1G/ref=sr_1_5?crid=2JWOQU9ZTCO66&dib=eyJ2IjoiMSJ9.PmsVVF38wHQKauTJygc25JyPu7crquC4YOZlIMymjJPTMnIuGBcVTIldOe8Yqu6_IxwuKyPK9PJ2wl5FfiXSEG-WITib7oOHwgcEOkWyz96z-P521Odh4qBJdFunlMt2yJ3qSBoKtveqhV10jCrankhwfkZe-QqnL9j-_ro4xqm_LRoiAv6RopaIJgJH73K7STwZx7ed9hc9hHL-eS3XpQmsjA_qGuQrjXnTngsg1dNjkREqZ7E9z3gOa5JXMixtSXpEQFDLbBe7GUEK3gNak20Lla0cwukXiXQ9ykhSSJw.VokMlnaZpl5zu8g8rcrNjNV1kmZ79L-6oBjH52hUty0&dib_tag=se&keywords=dc+water+pump+arduino&qid=1784156502&sprefix=dc+water+pump+arduino%2Caps%2C253&sr=8-5"> Link </a> |
-| Moister Sensor @2.0| What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
+| Moister Sensor 2.0| Used to calculate how moist your plant is | $12 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/AITRIP-Capacitive-Corrosion-Resistant-Electronic/dp/B094J8XD83/ref=sr_1_2?crid=3G8OOYX0G3ZJE&dib=eyJ2IjoiMSJ9.gNHrUBw0qeWZbN2WvG7CtKpS1n_l8NwiG4-9CQlWWlEdkqDKZTo77faprPrwckQMaGnRadhJ033wcLX5Y35j_Z0oEXk6r-wDKmcKpe3jrwghuYHSCSz5AnWWtymczSZdp9ejATRoUxd1tUOcZqMBuNXWNqafu7Mssocb0SXgM68fsYkq_KZvwn1LyofdPC2WcR73uNutawOkbkG3AVOgZrHBF1abcSiHw6NDbMFzBAM.r9o7e4SKj-y5PIgghRYSveB_4UPw_zkR8RgRuDkClig&dib_tag=se&keywords=arduino%2Bmoisture%2Bsensor%2Bv2.0&qid=1784234109&sprefix=arduino%2Bmoister%2Bsensor%2Bv2.0%2Caps%2C159&sr=8-2&th=1)"> Link </a> |
+
+| relay | Used to control the power | $9.60 | <a href="https://www.amazon.com/AITRIP-Channel-Isolation-Compatible-Raspberry/dp/B096M77HCJ/ref=sr_1_4?crid=2BH4MGN7PBAAJ&dib=eyJ2IjoiMSJ9.9cE9x6SBQvFQO7v2ymEMCIjxus7PC4G4oMvaHAW4VvVfEiVv8Y76wMTAb0kL8Lq6pUDsbyhY1PS0eI9IgotBuvKyiZevA0FNOPcGTAaxb_YDe41wnG2j8ZCtJ8nTzfrdkngQnDcDK3_35En_AJTmpjyA6Jro35qBBsmYVdANczu-tnNlgJ-4m5iRyLbpkfzazzoPFcLh9dvFZ5RqpgQnKiuOOrO6qcMSbmiHQvDLAAk.JX5uZNXdoJLVa7wQhILqrcDwEnl2VJ9J78mxQ4CcntI&dib_tag=se&keywords=arduino+relay&qid=1784235112&sprefix=arduino+relay%2Caps%2C178&sr=8-4"> Link </a> |
+
+| Basic Wires | Used to connect things | $6 | <a href="https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJXND9/ref=sr_1_5?crid=I3KXD3C9P4JI&dib=eyJ2IjoiMSJ9.qJE7UjNibAzbwpMmx2tJ0xEjvYMaEgz3Vn2NInhtP879k12oMw6KSWbWhXTLBqheeLask61eA6Oq0qbxAdiy6Un1lA2kaC49CZyqQ2mzBQLH0nIWQxo9dIip4IcnR3LTUiWd-D0ljV5kVq57Xv7e7NRNIzBDcUkztzcf4JJbVLBhw9AqCZS1CUk2oI7GUDolv1p4_Z8VKNYFZc5ixbrC7Ls32uPGH__XqCKjoUSZbek.ifzIYQKazTJcT9L9J2z1C6fYDG43k7TdNV_VMWiij2A&dib_tag=se&keywords=arduino%2Bwires&qid=1784235312&sprefix=arduino%2Bwire%2Caps%2C180&sr=8-5&th=1"> Link </a> |
+
+| Bread Board | Used to connect wires | $6 | <a href="https://www.amazon.com/ELEGOO-tie-points-breadboard-Arduino-Jumper/dp/B01EV640I6/ref=sr_1_15?crid=1VLPDDYOEI0GA&dib=eyJ2IjoiMSJ9.5Z5yTwL-oa1r18Ah_zf9OdziZtM7NtJzJKlf3z7Il1RZRsLHHdDXy8k48WgaDzgsQ6w8v_YzyQq3oeGgxJ3klrEDkcVpEPBYptdRMP2WHOJrLcVPkMI1WLOfSnmWxa_PX-ncmj_znz17XEYYDeVdULS2gqZ3hhaQGZ-6h30Or3n_P_I6L-77nwAcMiJI4FJ-rduK1FPphqLdszT0dOnZyfdPs2IFMC3IP1fo_TcAAg0.Rh4W-dAIGtIMk-LDxF_PuyGpNhbEYpJ_0MmXhVE0lYc&dib_tag=se&keywords=breadboard&qid=1784235446&sprefix=breadboard%2Caps%2C220&sr=8-15"> Link </a> |
+
+| 9v battery | Used to power your arduino | $13 | <a href="https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S/ref=sr_1_5?crid=1Q4TLA99SWS95&dib=eyJ2IjoiMSJ9.8xIC2eXJTnIdYA30fCJOn_iE79m41H7SomYYi3eBFPuRrOWWZozBDhkkdClRxooDpdDJtzh1DNj8RgSb0qzsUJZrK8eMdAIMmMzElqGcn9sX00SrTI3KhFDVcNLPxrHqJW5MDlgeVf_ua41n17cyrj_vVKfKxTZFw_OwfbPcUFdX7K19ZfkuDrk5mt7fvALu07EOvXHjpxO-wlxF6f-crW0HqaN64OkzDmoPot2ObqVWe-Vd-aSN-xvkvojVa16jGshR99AncF8Q9DmA0zjDsNu1Yrxhzp7VJZL1LrlbeXeg.srOGvZpM8Bz18V8yE5IxvnobDWkCRTyBad_AphAWPnE&dib_tag=se&keywords=batteries+9v&qid=1784235662&rdc=1&sprefix=batteries+9%2Caps%2C186&sr=8-5"> Link </a> |
+
+
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
@@ -231,4 +244,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+
